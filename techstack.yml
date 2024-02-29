@@ -1,0 +1,83 @@
+repo_name: martin-creator/http-with-node
+report_id: ef681033d4295888d02dabfa7b7749f0
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:52:04+00:00'
+requested_by: armenavanesi
+provider: github
+branch: master
+detected_tools_count: 6
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/martin-creator/http-with-node
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/martin-creator/http-with-node
+  detection_source: Repo Metadata
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/martin-creator/http-with-node/blob/master/yarn.lock
+  detection_source: yarn.lock
+  last_updated_by: Armen
+  last_updated_on: 2020-01-13 02:32:11.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/martin-creator/http-with-node/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Armen
+  last_updated_on: 2020-01-13 02:32:11.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.19.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/martin-creator/http-with-node/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Armen
+  last_updated_on: 2020-03-13 22:05:09.000000000 Z
+- name: formidable
+  description: A node.js module for parsing form data
+  package_url: https://www.npmjs.com/formidable
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16761/default_c11d90814ded8fcd305b22fdc42b42a3111f1f6d.png
+  detection_source_url: https://github.com/martin-creator/http-with-node/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Armen
+  last_updated_on: 2020-03-13 22:05:09.000000000 Z
